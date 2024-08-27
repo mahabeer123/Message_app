@@ -8,7 +8,7 @@ const ChatList = () => {
             <div className='search'>
                 <div className='searchBar'>
                     <img src="./search.png" alt="" />
-                    <input type="text" placeholder="Search" />
+                    <input type="texts" placeholder="Search" />
                 </div>
                 <img src={addMod ?"./minus.png" : "./plus.png"} alt="" className="add" onClick={() => setAddMode((prev) => !prev)} />
             </div>
